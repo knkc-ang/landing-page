@@ -1,0 +1,180 @@
+/* Aqui tenemos que poner 3 cajas*/
+/*literalmente aqui empieza la parte dificil del proceso la caja con fondo medio oscuro, 
+bueno quien sabe como este A POR ELLO JEJE bueno ya*/
+body  {
+    margin: 0;
+    padding: 0;
+}
+.cabez {
+    display: flex;
+    flex-direction: column;
+}
+.space   {
+    background-color: #1F2937;
+    color: white;
+    height: 300px;
+    padding-left: 120px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding-left: 250px;
+    font-size: 13px;
+}
+a {
+  text-decoration: none;  /* ← quita la rayita de abajo ✅ */
+  color: white;           /* ← ponle el color que quieras */
+}
+.espaciouno   {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.rem  {
+font-weight: bold;
+font-size: 17px;
+}
+.cajota  {
+    display: flex;
+   justify-content: center;
+}
+.onee  {
+    height: 150px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      padding-left: 10px;
+}
+.movercajota  {
+    display: flex;
+      justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.segundo   {
+    display: flex;
+    flex-direction: column;
+}
+.reptil     {
+display: flex;
+}
+.uno  {
+ display:flex;
+width: 80px;
+height: 25px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background-color: #3882F6;
+border: none;
+color: white;
+margin-top: 10px;
+}
+.spacetwo  {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.info-cards  {
+display: flex;
+justify-content: center;
+gap: 40px;
+}
+.info-card  {
+  display: flex;
+  flex-direction: column;   /* ← imagen ARRIBA, texto ABAJO ✅ */
+  align-items: center;      /* ← ambos centrados ✅ */
+  width: 100px;         /* ← mismo ancho todas ✅ */
+  text-align: center;       /* ← texto centrado ✅ */
+}
+.info-cards {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 24px;
+}
+ .qwe  {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+border-radius: 10%;
+border: 3px solid #3882F6;
+}
+p  {
+ font-size: 13px;
+}
+.info-cards   {
+    margin: 0;
+    padding: 0;
+}
+.tile  {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.spacethree  {
+    height: 300px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.parrafo  {
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: 200;
+    font-style: italic;
+}
+.autor  {
+    display:flex ;
+    justify-content: end;
+    margin-left: 370px;
+}
+.spacefour  {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajita  {
+    height: 50px;
+    width: 580px;
+    background-color: #3882F6;
+    padding: 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+.dos  {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border:1px solid white;
+    width: 80px;
+height: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 100px;
+
+}
+.nou  {
+    display: flex;
+   flex-direction: column;
+}
+.spacefive  {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    height: 60px;
+    font-size: 13px;
+}
